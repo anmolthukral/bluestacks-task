@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"), url(./assets/fonts/Roboto.ttf) format("opentype");
+}
+body {
+  font-family: Roboto;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 5rem;
+  display: flex;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  max-height: 3rem;
+  align-items: center;
+  padding-left: 4rem;
+}
+h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 50px;
+  color: #2b416c;
+}
+.application {
+  margin: 4rem;
+}
+
+.logo {
+  max-height: 5rem;
+  max-width: 5rem;
+  padding: 0.2rem;
+}
+ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2rem;
+}
+li {
+  margin-right: 2rem;
+  color: gray;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: bold;
+  padding: 0 1rem;
+}
+
+.active {
+  color: #83a515;
+  border-bottom: solid #83a515 3px;
+}
+.svg-icon {
+  border: solid;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background-color: yellow;
+}
+table {
+  padding: 1rem;
+  width: 100%;
+}
+thead {
+  width: 100%;
+  background: #f1f1f4;
+  color: black;
+}
+thead tr td {
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.flexify {
+  display: flex;
+  flex-direction: row;
+}
+
+.img-position img {
+  min-height: 4rem;
+  min-width: 4rem;
+  margin-right: 0.5rem;
+}
+.name {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.name-span {
+  font-weight: bold;
+}
+.region {
+  font-style: italic;
+}
+
+.btn-price {
+  display: flex;
+  background-color: transparent;
+  justify-content: middle;
+  align-items: center;
+  border: none;
+  font-size: 1rem;
+  color: #7788a3;
+}
+a {
+  color: #7788a3;
+}
+
+.list-actions {
+  color: #7788a3;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.list-actions li svg {
+  margin-right: 0.2rem;
+}
+.modal {
+  z-index: 9999;
+  background: transparent;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.modal img {
+  min-height: 15rem;
+  min-width: 15rem;
+}
+.pull-down {
+  align-self: end;
+}
+.title-div {
+  display: flex;
+  flex-direction: row;
+}
+.title-div h1 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+.modal h2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  align-self: flex-start;
+}
+.modal-body button {
+  background-color: #f1f1f4;
+  border: solid black 2px;
+  min-height: 2rem;
+  min-width: 4rem;
+}
+nav button {
+  margin-left: auto;
+  background-color: transparent;
+  border: 0;
+  color: white;
+  padding-right: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .img {
+    max-height: 2rem;
+    max-width: 2rem;
+  }
+}
